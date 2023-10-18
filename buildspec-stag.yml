@@ -3,6 +3,8 @@ version: 0.2
 env:
   variables:
     TERRAFORM_VERSION: "0.15.3"
+    #TERRAFORM_VERSION: "1.6.1" terraform latest version
+    # https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html reference doc for aws codebuild spec
     TF_COMMAND: "apply"
     #TF_COMMAND: "destroy"
   parameter-store:
