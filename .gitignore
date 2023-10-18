@@ -29,4 +29,4 @@ override.tf.json
 # example: *tfplan*
 
 private-key/*
-terraform-manifests/private-key/*
+terraform-manifests/private-key/terraform-key.pem
